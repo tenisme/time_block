@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           onPrimaryContainer: Colors.black, // 카드 위의 기본 텍스트 컬러
           onSurface: Colors.white, // 배경색(background) 위의 텍스트 컬러
           onSurfaceVariant: Color(0xFF979797), // 회색 글씨
-          error: Color(0xFFB2257F), // 포인트 컬러
+          error: Color.fromARGB(255, 108, 108, 108), // 포인트 컬러
         ),
       ),
       home: const HomeScreen(),
